@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="CBGame" representedClassName="CBGame" syncable="YES">
+        <attribute name="bonus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score_player1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score_player2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CBTeam" representedClassName="CBTeam" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="members" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ranking" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CBUser" representedClassName="CBUser" syncable="YES">
+        <attribute name="defeat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gems" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pseudo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wins" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="playerTeam" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CBTeam" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CBTeam" positionX="-54" positionY="45" width="128" height="118"/>
+        <element name="CBUser" positionX="-47" positionY="-228" width="128" height="163"/>
+        <element name="CBGame" positionX="-54" positionY="-72" width="128" height="135"/>
+    </elements>
+</model>

@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (3.1.4)
+  - SwiftOverlays (1.0)
+  - SwiftyJSON (2.3.2)
+  - XCDYouTubeKit (2.4.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - SwiftOverlays (~> 1.0)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - XCDYouTubeKit (~> 2.4.2)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 8e618c8baf6323a5079c6549bb38d48357b31630
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: fbc829692f351fa1d8a31dd75fd7f7f56fea31fb
+  SwiftOverlays: 6a47bab3ed2784c378f07b275269f9e8231526e6
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  XCDYouTubeKit: fa2eaa600d062fd812ee69fd5f905e3b066dce07
+
+COCOAPODS: 0.39.0
